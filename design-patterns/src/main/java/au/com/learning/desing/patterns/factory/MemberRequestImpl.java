@@ -1,6 +1,6 @@
 package au.com.learning.desing.patterns.factory;
 
-public class MemberRequestImpl extends RequestFactory {
+public class MemberRequestImpl extends RequestProcessor {
 
 	@Override
 	public void processRequest(RequestType requestType) {
